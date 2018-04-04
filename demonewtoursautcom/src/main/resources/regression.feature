@@ -11,7 +11,7 @@
 
 
     @login
-    Scenario: login
+    Scenario: login as an user
       Given as an user I am on homepage
       And I login with username as "eastham" and password as "eastham"
       And I click on signIn button
