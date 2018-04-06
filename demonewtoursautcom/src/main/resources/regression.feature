@@ -1,6 +1,14 @@
 
   Feature: regression pack
 
+    @register
+      Scenario: register
+      Given I am on homepage
+      And I click on register
+      And I enter username as "eastham" and password as "eastham"
+      And I select register button
+      Then I should be successfully registered
+
 
     @login
     Scenario: login
